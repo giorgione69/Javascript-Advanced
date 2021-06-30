@@ -1,1 +1,1 @@
-# giorgio-polese-Javascript-Advanced
+# Javascript-Advanced
