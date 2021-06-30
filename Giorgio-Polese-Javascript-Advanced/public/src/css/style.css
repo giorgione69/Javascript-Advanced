@@ -1,0 +1,297 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+  background-color: #bfe1ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    color: #2E2752;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.9;
+    font-size: 1.5rem;
+}
+
+hr {
+    color: #dee2e6;
+    height: 1px;
+}
+
+.anchor {
+    display: block;
+    height: 100px;
+    margin-top: -100px;
+    visibility: hidden;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #433FD1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    color: #79ade0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.9;
+    font-size: 1.8rem;
+}
+
+.navbar-brand span {
+    color:#433FD1;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.navbar form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+
+.btn {
+    border-color: #433FD1;
+    color: #433FD1;
+    border-radius: 50px;
+    padding: 7px 10px 7px 10px;
+    transition: 0.3s;
+
+}
+
+.btn:hover {
+    background-color: #433FD1;
+    color: #fff;
+}
+
+.btn i {
+    display: inline;
+    margin-left: 10px;
+}
+
+.jumbotron {
+    padding-top: 60px;
+    min-height: 400px;
+    background-color: #2E2752;
+    color: #fff;
+    position: relative;
+}
+
+.jumbotron img {
+object-fit: cover;
+
+}
+
+main {
+    margin-top: 50px;
+}
+
+.data-row {
+    min-height: 400px;
+    background-color: #fff;
+    height: 100%;
+    padding: 50px 50px 50px 50px;
+    -webkit-box-shadow: 0px 0px 46px 0px rgba(219, 219, 219, 0.71);
+    -moz-box-shadow: 0px 0px 46px 0px rgba(219, 219, 219, 0.71);
+    box-shadow: 0px 0px 46px 0px rgba(219, 219, 219, 0.71);
+}
+
+.pollution-value {
+    list-style-type: none;
+}
+
+
+footer {
+    background-color: #2E2752;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    padding-top: 10px;
+}
+
+footer a {
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    font-weight: 500;
+}
+
+.info i {
+    margin-left: 10px;
+}
+
+.icon-box {
+    font-size: 1.5rem;
+}
+
+.icon-box i {
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.icon-box a:hover i {
+    transform: scale(1.1);
+}
+
+.aqi-card {
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.aqi-card p {
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.data-row{
+    position: relative;
+}
+
+.data-row label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+.data-row label i,
+.data-row p i {
+    margin-right: 5px;
+    color: #433FD1;
+}
+
+.h2-placeholder {
+    text-align: center;
+    color: #433FD1;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.9;
+    font-size: 2.1rem;
+
+}
+.not-found{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.not-found p{
+    color: #433FD1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:3rem;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.not-found h3{
+    color: #433FD1;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.9;
+}
+
+th label{
+    display: block;
+    margin-bottom: 0px !important;
+    font-size: 10px !important;
+}
+td{
+    vertical-align: middle;
+}
+.good {
+    background-color: #009966;
+    color: #fff;
+}
+
+.moderate {
+    background-color: #FFDE33;
+    color: #000;
+}
+
+.unhealty-s {
+    background-color: #FF9933;
+    color: #000;
+}
+
+.unhealty {
+    background-color: #CC0033;
+    color: #fff;
+}
+
+.very-unhealty {
+    background-color: #660099;
+    color: #fff;
+}
+
+.hazardous {
+    background-color: #7E0023;
+    color: #fff;
+}
+.navbar-toggler-icon{
+    color:#433FD1;
+  vertical-align: middle;
+}
+
+@media  (max-width:1450px){
+    img{
+       object-fit: cover;
+        position: fixed;
+    }
+}
+
+@media (max-width: 1000px){
+
+  img{
+     object-fit: cover;
+      position: fixed;
+  }
+
+  #btn-geolocation{
+        width: 100%;
+    }
+}

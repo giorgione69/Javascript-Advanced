@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <script src="https://kit.fontawesome.com/aeec0b6e94.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <title>World Air Pollution</title>
+</head>
+
+<body>
+  <header>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+<a class="navbar-brand" href="">World Air <span>Quality</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+ aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fas fa-search navbar-toggler-icon"></i>
+</button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav">
+  <li class="nav-item">
+  <form id="form-search">
+  <div class="input-group mb-3">
+  <input id="input-city" type="search" class="form-control" placeholder="Cerca una città.."
+    aria-label="Cerca una città.." autocomplete="off">
+  <button class="btn" type="submit">Search<i class="fas fa-search"></i></button>
+  </div>
+  </form>
+</li>
+<li class="nav-item">
+  <button class="btn" id="btn-geolocation">La tua posizione<i class="fas fa-map-marker-alt"></i></button>
+   </li>
+ </ul>
+</div>
+</div>
+</nav>
+<div class="jumbotron">
+  <img src="img/air-pollution.jpg"  />
+</div>
+</header>
+
+<main>
+  <div class="container">
+<span class="anchor" id="data-row"></span>
+<div class="row data-row" id="data-value">
+<h2 class="h2-placeholder">Misura la qualità dell'aria della tua città!</h2>
+   </div>
+ </div>
+</main>
+
+<footer>
+<div class="container">
+<div class="info">
+<ul>
+<li>
+<a href="https://waqi.info/" target="_blank"><i class="fab fa-creative-commons-by"></i> World Air Quality Index</a>
+  </li>
+  </ul>
+</div>
+</div>
+</footer>
+
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+</script>
+</body>
+</html>
